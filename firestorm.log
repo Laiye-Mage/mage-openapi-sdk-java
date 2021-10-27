@@ -1,0 +1,24 @@
+DEBUG main org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Date: Thu, 21 Oct 2021 03:54:27 GMT[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Content-Length: 85[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "x_mage_invoke_id: [\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "x_mage_invoke_status: 200[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "x-envoy-upstream-service-time: 20[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "Set-Cookie: SERVERID=b887e41ba4ff5c09a4ff71efffea1745|1634788467|1634788467;Path=/[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+DEBUG main org.apache.http.wire - http-outgoing-0 << "{"code":10016,"message":"[0xe5][0xba][0x94][0xe7][0x94][0xa8][0xe7][0xb1][0xbb][0xe5][0x9e][0x8b][0xe4][0xb8][0x8d][0xe5][0x8c][0xb9][0xe9][0x85][0x8d][0xef][0xbc][0x8c][0xe8][0xaf][0xb7][0xe9][0x80][0x89][0xe6][0x8b][0xa9][0xe6][0xad][0xa3][0xe7][0xa1][0xae][0xe7][0x9a][0x84]API","task_id":""}"
+DEBUG main org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG main org.apache.http.headers - http-outgoing-0 << Date: Thu, 21 Oct 2021 03:54:27 GMT
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Type: application/json
+DEBUG main org.apache.http.headers - http-outgoing-0 << Content-Length: 85
+DEBUG main org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+DEBUG main org.apache.http.headers - http-outgoing-0 << x_mage_invoke_id: 
+DEBUG main org.apache.http.headers - http-outgoing-0 << x_mage_invoke_status: 200
+DEBUG main org.apache.http.headers - http-outgoing-0 << x-envoy-upstream-service-time: 20
+DEBUG main org.apache.http.headers - http-outgoing-0 << Set-Cookie: SERVERID=b887e41ba4ff5c09a4ff71efffea1745|1634788467|1634788467;Path=/
+DEBUG main org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+DEBUG main org.apache.http.client.protocol.ResponseProcessCookies - Cookie accepted [SERVERID="b887e41ba4ff5c09a4ff71efffea1745|1634788467|1634788467", version:0, domain:mage.uibot.com.cn, path:/, expiry:null]
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {s}->https://mage.uibot.com.cn:443] can be kept alive indefinitely
+DEBUG main org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}->https://mage.uibot.com.cn:443][total kept alive: 1; route allocated: 1 of 20; total allocated: 1 of 20]
